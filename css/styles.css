@@ -120,6 +120,17 @@ rgba(255, 255, 255, 0.6) */
   background-color: var(--primery-bg-color);
   text-align: center;
 }
+.overlay {
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero.jpg');
+}
 .hero-title {
   color: var(--primery-white-color);
   margin-top: 0px;
