@@ -210,13 +210,27 @@ rgba(255, 255, 255, 0.6) */
   width: 270px;
 }
 .features-cart::before {
-  display: inline-block;
+  display: block;
   content: '';
-  width: 270px;
   height: 120px;
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
   margin-bottom: 30px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-antenna::before {
+  background-image: url('../images/f1.svg');
+}
+.icon-clock::before {
+  background-image: url('../images/f2.svg');
+}
+.icon-diagram::before {
+  background-image: url('../images/f3.svg');
+}
+.icon-astronaut::before {
+  background-image: url('../images/f4.svg');
 }
 .features .features-cart + .features-cart {
   margin-left: 30px;
