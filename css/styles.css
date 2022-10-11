@@ -209,6 +209,15 @@ rgba(255, 255, 255, 0.6) */
 .features-cart {
   width: 270px;
 }
+.features-cart::before {
+  display: inline-block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .features .features-cart + .features-cart {
   margin-left: 30px;
 }
