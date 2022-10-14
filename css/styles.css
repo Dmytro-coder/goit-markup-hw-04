@@ -343,11 +343,11 @@ img {
   height: 100%;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  color: var(--icon-color);
+  fill: var(--icon-color);
 }
 .clients-icons:hover,
 .clients-icons:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
