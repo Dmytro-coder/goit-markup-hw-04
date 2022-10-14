@@ -113,11 +113,9 @@ rgba(255, 255, 255, 0.6) */
 .contact-nav-link:focus {
   color: var(--accent-color);
 }
-.icons {
-  fill: currentColor;
-}
 .contact-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 /* Hero */
 .hero {
@@ -312,12 +310,20 @@ img {
 }
 .team-text {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team-social-link {
+  fill: var(--icon-color);
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  fill: var(--primery-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Клієнти */
@@ -393,7 +399,7 @@ img {
   width: 206px;
   height: 80px;
 }
-.social-link-caption {
+.social-link-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -402,6 +408,7 @@ img {
   text-transform: uppercase;
   color: var(--primery-white-color);
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .social-link-list {
   display: flex;
@@ -423,6 +430,7 @@ img {
 }
 .footer-social-link {
   background: rgba(255, 255, 255, 0.1);
+  fill: var(--primery-white-color);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
