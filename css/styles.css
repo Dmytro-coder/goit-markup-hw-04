@@ -19,6 +19,10 @@ body {
   padding: 0;
   margin: 0;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* колір основного тексту #757575 */
 /* колір тексту заголовків #212121 */
@@ -443,6 +447,7 @@ img {
 }
 .portfolio {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .portfolio-cart {
