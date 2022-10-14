@@ -351,6 +351,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-contact-container {
+  margin-right: 70px;
+}
 .address-item {
   margin-top: 20px;
 }
@@ -385,7 +392,6 @@ img {
 .footer-social-container {
   width: 206px;
   height: 80px;
-  margin-left: 301px;
 }
 .social-link-caption {
   font-style: normal;
@@ -418,7 +424,6 @@ img {
 .footer-social-link {
   background: rgba(255, 255, 255, 0.1);
 }
-
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
